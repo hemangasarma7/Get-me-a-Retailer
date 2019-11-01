@@ -2,7 +2,7 @@
 getMeARetailer is a python django project using django rest framework which helps a customer to select the best online provider for a product based on price, provider rating and delivery time
 It consists of three django models: Provider, Product and Logistic. With the help of django rest_framework, several REST APIs have been designed to add and list entries o each mentioned model.
 
-Also, two more REST APIs have been designed to list the price variations of a particular product with respect to different online providers, and to list the different delivery time with respect to different logistic service providers working with the chosen online provider for the choen product.
+Also, two more REST APIs have been designed to list the price variations of a particular product with respect to different online providers, and to list the different delivery time with respect to different logistic service providers working with the chosen online provider for the chosen product.
 
 Sample APIs to use the application:
 
